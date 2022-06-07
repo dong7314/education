@@ -1,0 +1,123 @@
+@keyframes cursorAction {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#header {
+  .row {
+    margin-top: 0;
+    padding: 10px 0;
+  }
+  #gnb {
+    li {
+      a {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+      }
+    }
+  }
+  .logo {
+    background: url('../img/logo/twitter_header_photo_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+  }
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+.section1 {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+  .container {
+    height: 300px;
+    .headline {
+      position: relative;
+      display: inline-block;
+      margin: 20px;
+      color: black;
+      text-align: center;
+      h2 {
+        letter-spacing: 1.6px;
+        font-size: 80px;
+        font-weight: 500;
+        height: 85px;
+      }
+    }
+    .text {
+      opacity: 0;
+    }
+    .cursor {
+      position: absolute;
+      display: block;
+      height: 100%;
+      width: 2px;
+      bottom: 0;
+      right: -5px;
+      /* change color of Cursor here */
+      background-color: black;
+      z-index: 1;
+      animation: cursorAction 0.5s infinite alternate;
+    }
+    p {
+      font-size: $pFontSize;
+      opacity: 0;
+      transition: 1.5s;
+    }
+  }
+}
+
+.section2 {
+  .wrapper {
+    overflow: hidden;
+    padding: 0;
+    ul {
+      height: 700px;
+      display: flex;
+      flex-wrap: nowrap;
+      width: 250%;
+      li {
+        position: relative;
+        width: 20%;
+        img {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+.section3 {
+  .container {
+    .row {
+      margin: 100px 0;
+    }
+  }
+}
+
+.section4 {
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  border-top: 1px solid #5a5a5a;
+  span {
+    font-weight: 300;
+  }
+}

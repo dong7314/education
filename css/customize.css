@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.w-100 {
+  margin: 50px auto;
+  background: rgba(0,0,0,.125);
+  height: 1px;
+}
+
+.container > h3 {
+  text-align: center;
+  line-height: 36px;
+  height: 36px;
+  font-size: 21px;
+  color: #333333;
+}
+
+.container .row {
+  margin-top: 20px;
+}
+
+.container h3 {
+  margin-top: 20px;
+}
+
+.jumbotron.transparent {
+  background: none;
+}
+
+.jumbotron.pos-mid {
+  padding: 0 2rem;
+}
+
+.jumbotron.right-text {
+  text-align: right;
+}
+
+.carousel-item {
+  height: 32rem;
+}
