@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="312px" height="205px" viewBox="0 0 312 205" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>img_guideline_modal</title>
+    <defs>
+        <polygon id="path-1" points="0 205 312 205 312 0 0 0"></polygon>
+        <polygon id="path-3" points="0 7.10542736e-15 82.9017 7.10542736e-15 82.9017 22.305 0 22.305"></polygon>
+        <polygon id="path-5" points="0 0 82.9017 0 82.9017 20.995 0 20.995"></polygon>
+    </defs>
+    <g id="LDSM_PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5_LDSM_overview_uxguideline_pc" transform="translate(-1227.000000, -604.000000)">
+            <g id="img_guideline_modal" transform="translate(1227.000000, 604.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g></g>
+                <polygon id="Fill-1" fill="#000000" mask="url(#mask-2)" points="115 93.982 197.903 93.982 197.903 64 115 64"></polygon>
+                <g id="Group-8" mask="url(#mask-2)">
+                    <g transform="translate(115.000300, 102.342100)">
+                        <g id="Group-4">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Clip-3"></g>
+                            <path d="M82.902,4.996 L82.902,22.305 L0,22.305 L0,4.996 C0,2.237 2.237,7.10542736e-15 4.996,7.10542736e-15 L77.906,7.10542736e-15 C80.665,7.10542736e-15 82.902,2.237 82.902,4.996" id="Fill-2" fill="#1DCC64" mask="url(#mask-4)"></path>
+                        </g>
+                        <g id="Group-7" transform="translate(0.000000, 17.659700)">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <g id="Clip-6"></g>
+                            <path d="M82.902,5.783 L82.902,20.995 L0,20.995 L0,5.783 C0,2.589 2.589,0 5.783,0 L77.119,0 C80.313,0 82.902,2.589 82.902,5.783" id="Fill-5" fill="#95F4B7" mask="url(#mask-6)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

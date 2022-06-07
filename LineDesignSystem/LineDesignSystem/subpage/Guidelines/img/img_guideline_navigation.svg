@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="312px" height="205px" viewBox="0 0 312 205" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>img_guideline_navigation</title>
+    <g id="LDSM_PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5_LDSM_overview_uxguideline_pc" transform="translate(-543.000000, -985.000000)">
+            <g id="img_guideline_navigation" transform="translate(543.000000, 985.000000)">
+                <polygon id="Fill-1" fill="#1DCC64" points="100 138.368 155.978 138.368 155.978 66 100 66"></polygon>
+                <polygon id="Fill-2" fill="#000000" points="155.978 138.368 211.957 138.368 211.957 66 155.978 66"></polygon>
+                <polygon id="Fill-3" fill="#FFFFFF" points="109.891 95.176 146.087 95.176 146.087 91.406 109.891 91.406"></polygon>
+                <polygon id="Fill-4" fill="#FFFFFF" points="109.891 109.192 146.087 109.192 146.087 105.422 109.891 105.422"></polygon>
+                <polygon id="Fill-5" fill="#FFFFFF" points="109.891 123.209 146.087 123.209 146.087 119.439 109.891 119.439"></polygon>
+                <polygon id="Fill-6" fill="#FFFFFF" points="165.87 95.176 202.066 95.176 202.066 91.406 165.87 91.406"></polygon>
+                <polygon id="Fill-7" fill="#FFFFFF" points="165.87 109.192 202.066 109.192 202.066 105.422 165.87 105.422"></polygon>
+                <polygon id="Fill-8" fill="#FFFFFF" points="165.87 123.209 202.066 123.209 202.066 119.439 165.87 119.439"></polygon>
+                <polygon id="Fill-9" fill="#FFFFFF" points="194.4 83.08 202.288 83.08 202.288 75.192 194.4 75.192"></polygon>
+                <polygon id="Fill-10" fill="#FFFFFF" points="138.199 83.08 146.087 83.08 146.087 75.192 138.199 75.192"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

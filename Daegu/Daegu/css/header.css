@@ -1,0 +1,38 @@
+#header {
+  height: 97px;
+  overflow: hidden;
+}
+
+#header .logo {
+  display: flex;
+  align-items: center;
+  float: left;
+  width: 124px;
+  height: 100%;
+}
+
+#header .logo a {
+  display: block;
+  width: 124px;
+  height: 64px;
+  background: url("../img/logo_header.png");
+}
+
+#header .gnb-wrap {
+  display: block;
+  width: 990px;
+  height: 100%;
+  margin: 0 280px 0 130px;
+}
+
+#header .gnb-wrap ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header .gnb-hover {
+  display: none;
+}

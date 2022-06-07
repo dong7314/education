@@ -1,0 +1,10 @@
+@mixin gridItem {
+  display: grid;
+  grid-template-columns: repeat(6, 160px);
+  grid-template-rows: minmax(40px, auto) 1fr;
+  justify-content: space-between;
+}
+
+$borderPrimaryColor: #e1e1e1;
+$fontColor: #333333;
+$eFontColor: #7f0019;

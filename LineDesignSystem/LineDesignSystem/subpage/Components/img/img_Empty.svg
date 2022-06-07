@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="380px" height="250px" viewBox="0 0 380 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ldsm/component/img_empty@2x</title>
+    <g id="LDSM_PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LDSM_4_overview_component_pc-Copy" transform="translate(-399.000000, -4460.000000)">
+            <g id="ldsm/component/img_empty" transform="translate(399.000000, 4460.000000)">
+                <polygon id="Stroke-1" points="0 250 380 250 380 0 0 0"></polygon>
+                <g id="Group-41" transform="translate(120.000000, 61.000000)">
+                    <path d="M2.84217094e-14,127.03945 L2.84217094e-14,14.5992171 C2.84217094e-14,6.53673643 6.53511628,0.000147286821 14.5990698,0.000147286821 L125.342558,0.000147286821 C133.403566,0.000147286821 139.940155,6.53673643 139.940155,14.5992171 L139.940155,127.03945" id="Stroke-3" stroke="#000000" stroke-width="4" stroke-linejoin="round"></path>
+                    <path d="M33.3422016,1.36387597 C33.3422016,4.86193798 36.1774729,7.69868217 39.6770078,7.69868217 L100.263442,7.69868217 C103.761504,7.69868217 106.598248,4.86193798 106.598248,1.36387597 L106.598248,-6.39932551e-13 L33.3422016,-6.39932551e-13 L33.3422016,1.36387597 Z" id="Fill-4" fill="#000000"></path>
+                    <path d="M33.3422016,1.36387597 C33.3422016,4.86193798 36.1774729,7.69868217 39.6770078,7.69868217 L100.263442,7.69868217 C103.761504,7.69868217 106.598248,4.86193798 106.598248,1.36387597 L106.598248,-6.39932551e-13 L33.3422016,-6.39932551e-13 L33.3422016,1.36387597 Z" id="Stroke-5" stroke="#000000" stroke-width="3.8927907" stroke-linejoin="round"></path>
+                    <line x1="56.245155" y1="80.1825039" x2="83.9777907" y2="80.1825039" id="Stroke-6" stroke="#DFDFDF" stroke-width="2.91922481"></line>
+                    <line x1="70.1114729" y1="66.3167752" x2="70.1114729" y2="94.0494109" id="Stroke-7" stroke="#DFDFDF" stroke-width="2.91922481"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

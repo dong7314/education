@@ -1,0 +1,609 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+ul, ol { list-style: none; }
+a { text-decoration: none; }
+body { width: 100%; }
+
+h2.main-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 47px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 60px;
+}
+
+h5.title {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+
+}
+
+p.desc { font-family: 'Noto Sans KR', sans-serif; }
+
+span.version {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 38px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  border: 1px solid #e8e8e8;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+/* //헤더 영역 */
+#header {
+  position: fixed;
+  width: 100%;
+  height: 88px;
+  line-height: 88px;
+  backdrop-filter: blur(10px);
+  background-color: hsla(0,0%,100%,.85);
+  padding: 0 32px;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+#header a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: black;
+  letter-spacing: 0px;
+}
+
+#header h1 {
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding-right: 20px;
+}
+
+#header h1 svg {
+  position: relative;
+  top: 2px;
+}
+
+
+#header ul {
+  float: left;
+  overflow: hidden;
+}
+
+#header ul li {
+  float: left;
+  padding: 0 20px;
+  opacity: .5;
+}
+
+#header ul li a {
+  font-size: 17px;
+  letter-spacing: -0.5px;
+}
+
+#header ul li:hover {
+  transition: .5s;
+  opacity: 1;
+}
+
+#header .right-area {
+  display: inline-block;
+  float: right;
+  overflow: hidden;
+}
+
+#header .right-area a {
+  float: left;
+  position: relative;
+  padding-right: 35px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+#header .right-area a:hover {
+  opacity: .5;
+}
+
+#header .right-area a span{
+  display: block;
+  position: absolute;
+  top: 31px;
+  right: 21px;
+  width: 12px;
+  height: 12px;
+  background-image: url('../img/top-right.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header .right-area .language {
+  display: flex;
+  align-items: center;
+  float: left;
+  width: 36px;
+  height: 88px;
+}
+
+#header .right-area .language .globe {
+  width: 23px;
+  height: 23px;
+  background-image: url('../img/globe.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header .right-area .language .globe:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+
+#header .right-area .lang-box {
+  display: none;
+  position: absolute;
+  top: calc( 50% + 15px );
+  right: 20px;
+  width: 74px;
+  height: 114px;
+  margin-top: 10px;
+  padding: 11px 0;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background: white;
+}
+
+#header .right-area .lang-box a {
+  width: 72px;
+  height: 30px;
+  padding: 3px 18px;
+  line-height: 24px;
+  text-align: center;
+  box-sizing: border-box;
+  opacity: .5;
+}
+
+#header .right-area .lang-box a:hover {
+  opacity: 1;
+}
+
+/* 헤더 영역// */
+.video-box {
+  position: relative;
+  width: 100%;
+  height: 540px;
+}
+
+.video-box video {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 540px;
+  z-index: 1;
+}
+
+/* //컨텐츠 영역 */
+.wrap .content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* 첫번째 영역 */
+.wrap .content.first {
+  height: 535px;
+}
+
+.content.first .text-area {
+  padding-top: 73px;
+  text-align: center;
+}
+
+.content.first p {
+  color: #616161;
+  font-size: 19px;
+  line-height: 26px;
+  margin-top: 8px;
+  font-weight: 200;
+}
+
+.content.first .container {
+  padding: 68px 0 80px;
+}
+
+.content.first .container ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content.first .container ul li {
+  position: relative;
+  width: 380px;
+  height: 220px;
+  padding: 43px 31px 77px;
+  border: 1px solid #efefef;
+  box-sizing: border-box;
+}
+
+.content.first .container ul li a p {
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: 29px;
+}
+
+.content.first .container ul li a .arrow-box {
+  position : absolute;
+  bottom: 25px;
+  right: 25px;
+  width: 19px;
+  height: 19px;
+  background-image: url('../img/right-arrow.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 두번째 영역 */
+.content.second {
+  max-height: 771px;
+  padding: 170px 0;
+  overflow: hidden;
+}
+
+.content.second .text-area {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 555px;
+  height: 432px;
+}
+
+.content.second .img-area {
+  position: relative;
+  float: right;
+  width: 432px;
+  height: 432px;
+}
+
+.content.second .img-area img {
+  position: absolute;
+  width: 432px;
+  height: 432px;
+}
+
+.content.second a {
+  display: inline-block;
+  width: 555px;
+  min-height: 150px;
+}
+
+.content.second h2.title {
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 60px;
+  color: black;
+}
+
+.content.second h2.title svg {
+  margin-right: 10px;
+}
+
+.content.second p.desc {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.59px;
+  margin: 14px 0 20px;
+  color: #000;
+}
+
+.content.second a > span {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #616161;
+  border-bottom: 1px solid #616161;
+}
+
+.content.second span.version {
+  margin-left: 12px;
+  margin-top: 5px;
+}
+
+/* 세번째 영역 */
+.wrap .content.third {
+  height: 930px;
+  padding: 100px 0 190px;
+  box-sizing: border-box;
+}
+
+.content.third .text-area {
+  text-align: center;
+}
+
+.content.third .container {
+  margin-top: 80px;
+}
+
+.content.third .container ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content.third .container ul li {
+  position: relative;
+  width: 380px;
+  height: 500px;
+  padding: 39px 27px 87px;
+  border: 1px solid #efefef;
+  box-sizing: border-box;
+}
+
+.content.third .container ul li img {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+}
+
+.content.third .container ul li a {
+  position: relative;
+  top: calc(50% + 10px);
+}
+
+.content.third .container ul li a h5 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.content.third .container ul li a p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 16px;
+  color: #616161;
+  word-spacing: -1px;
+}
+
+.content.third .container ul li .arrow-box {
+  position : absolute;
+  bottom: 25px;
+  right: 25px;
+  width: 19px;
+  height: 19px;
+  background-image: url('../img/right-arrow.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content.third .container ul li a:hover {
+
+}
+
+/* 네번째 영역 */
+.wrap .content.fourth {
+  width: 100%;
+  height: 522px;
+  padding: 180px 0;
+  box-sizing: border-box;
+  background: black;
+}
+
+.content.fourth .text-wrap {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content.fourth .text-area {
+  width: 545px;
+  text-align: justify;
+}
+
+.content.fourth .text-area > p.desc{
+  color: white;
+  font-size: 33px;
+  font-weight: 300;
+  line-height: 38px;
+}
+
+.content.fourth .text-area > p.author{
+  color: hsla(0,0%,100%,.7);
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 24px;
+}
+
+/* 다섯번째 영역 */
+.content.fifth {
+  height: auto;
+  min-height: 815px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content.fifth h2, .content.fifth .btn-group {
+  display: block;
+  width: 585px;
+  height: 476px;
+  margin-top: 180px;
+}
+
+.content.fifth h2 {
+  font-size: 48px;
+}
+
+.content.fifth .btn-group {
+  margin-top: 160px;
+}
+
+.content.fifth li {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.content.fifth button.btn {
+  position: relative;
+  width: 585px;
+  min-height: 87px;
+  outline: 0;
+  border: 0;
+  background: white;
+  padding: 29px 45px 29px 0;
+  text-align: left;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.content.fifth button.btn:hover {
+  cursor: pointer;
+}
+
+.content.fifth button.btn span {
+  position: absolute;
+  right: 0;
+  top: calc( 50% - 10px );
+  width: 20px;
+  height: 20px;
+}
+
+.content.fifth button.btn span:before {
+  position: absolute;
+  content: '';
+  transform-origin: 50% 100%;
+  transform: rotate( 45deg );
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.content.fifth .textarea {
+  display: block;
+  top: 0;
+  left: 0;
+  position: relative;
+  padding: 0 27px 39px 0;
+  width: 585px;
+}
+
+.content.fifth .textarea p {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #616161;
+}
+
+/* 여섯번째 영역 */
+.wrap .content.sixth {
+  width: 100%;
+  height: 414px;
+  padding: 120px 0;
+  box-sizing: border-box;
+  background: #fcfcfc;
+}
+
+.content.sixth .text-wrap {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content.sixth h2 {
+  display: block;
+  width: 585px;
+  height: 174px;
+  font-size: 48px;
+}
+
+.content.sixth .text-area {
+  width: 585px;
+  height: 174px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content.sixth p.desc {
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #616161;
+}
+
+.content.sixth a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 197px;
+  height: 54px;
+  border-radius: 4px;
+  background: black;
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 컨텐츠 영역// */
+
+/* footer 영역 */
+footer {
+  background: #fcfcfc;
+  height: 104px;
+  font-size: 13px;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+#footer {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#footer ul {
+  overflow: hidden;
+  float: right;
+}
+
+#footer ul li {
+  float: left;
+  margin-right: 32px;
+}
+
+#footer ul li:last-child {
+  margin-right: 0;
+}
+
+#footer ul li a {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  color: black;
+  opacity: .5;
+}
+
+#footer ul li a:hover {
+  opacity: 1;
+}

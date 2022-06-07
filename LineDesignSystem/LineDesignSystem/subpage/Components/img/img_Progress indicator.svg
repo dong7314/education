@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="380px" height="250px" viewBox="0 0 380 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ldsm/component/img_progress@2x</title>
+    <defs>
+        <polygon id="path-1" points="0 250 380 250 380 0 0 0"></polygon>
+    </defs>
+    <g id="LDSM_PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LDSM_4_overview_component_pc-Copy" transform="translate(-899.000000, -2482.000000)">
+            <g id="ldsm/component/img_progress" transform="translate(899.000000, 2482.000000)">
+                <polygon id="Fill-1" points="0 250 380 250 380 0 0 0"></polygon>
+                <g id="Group-15">
+                    <path d="M260.283485,189.993326 L260.283485,77.2765564 C260.283485,69.1942487 253.731408,62.6421718 245.6491,62.6421718 L134.35051,62.6421718 C126.268203,62.6421718 119.716613,69.1942487 119.716613,77.2765564 L119.716613,189.993326" id="Fill-2" fill="#FFFFFF"></path>
+                    <path d="M260.283485,189.993326 L260.283485,77.2765564 C260.283485,69.1942487 253.731408,62.6421718 245.6491,62.6421718 L134.634049,62.6421718 C126.551741,62.6421718 120.000151,69.1942487 120.000151,77.2765564 L120.000151,189.993326" id="Stroke-4" stroke="#000000" stroke-width="4" stroke-linejoin="round"></path>
+                    <path d="M226.859659,64.0083692 C226.859659,67.5155744 224.016479,70.3587538 220.509274,70.3587538 L159.774069,70.3587538 C156.266864,70.3587538 153.423685,67.5155744 153.423685,64.0083692 L153.423685,62.6423179 L226.859659,62.6423179 L226.859659,64.0083692 Z" id="Fill-6" fill="#000000"></path>
+                    <path d="M226.859659,64.0083692 C226.859659,67.5155744 224.016479,70.3587538 220.509274,70.3587538 L159.774069,70.3587538 C156.266864,70.3587538 153.423685,67.5155744 153.423685,64.0083692 L153.423685,62.6423179 L226.859659,62.6423179 L226.859659,64.0083692 Z" id="Stroke-8" stroke="#000000" stroke-width="3.8974359" stroke-linejoin="round"></path>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-11"></g>
+                    <polygon id="Fill-10" fill="#2CDB61" mask="url(#mask-2)" points="133.936846 136.946641 195.516333 136.946641 195.516333 131.54041 133.936846 131.54041"></polygon>
+                    <polygon id="Fill-12" fill="#F0F0F2" mask="url(#mask-2)" points="195.516333 136.946641 227.833872 136.946641 227.833872 131.54041 195.516333 131.54041"></polygon>
+                    <line x1="235.232813" y1="128.962549" x2="245.794864" y2="139.5246" id="Stroke-13" stroke="#DFDFDF" stroke-width="2.43589744" mask="url(#mask-2)"></line>
+                    <line x1="245.795059" y1="128.962549" x2="235.233008" y2="139.5246" id="Stroke-14" stroke="#DFDFDF" stroke-width="2.43589744" mask="url(#mask-2)"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

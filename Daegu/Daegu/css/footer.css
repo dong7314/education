@@ -1,0 +1,95 @@
+#footer {
+  background: #ebecf1;
+  line-height: 1.3;
+}
+
+#footer .wrap .footer-t {
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+#footer .wrap .footer-t ul {
+  overflow: hidden;
+}
+
+#footer .wrap .footer-t ul li {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+
+#footer .wrap .footer-t ul li:first-child a {
+  padding-left: 0;
+}
+
+#footer .wrap .footer-t ul li:not(:first-child):before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 2px;
+  height: 2px;
+  margin: auto 0;
+  background: #585859;
+}
+
+#footer .wrap .footer-t ul li a {
+  display: block;
+  padding: 5px 10px;
+  font-size: 15px;
+  color: #333333;
+  letter-spacing: -1px;
+}
+
+#footer .wrap .footer-t ul li a strong {
+  color: #333333;
+  letter-spacing: -1px;
+}
+
+#footer .wrap .footer-b {
+  position: relative;
+  margin: 0 auto;
+  padding: 25px 250px 30px 186px;
+  border-top: 1px solid #d5d6dd;
+}
+
+#footer .wrap .footer-b .footer-logo {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+  width: 156px;
+  height: 44px;
+  background: url("../img/logo_footer.png") no-repeat 0 0;
+  color: transparent;
+}
+
+#footer .wrap .footer-b .footer-text {
+  font-size: 14px;
+}
+
+#footer .wrap .footer-b .footer-text p.address {
+  margin: 0;
+}
+
+#footer .wrap .footer-b .footer-text .copy {
+  margin: 3px 0 0 0;
+  color: #888;
+}
+
+#footer .wrap .footer-b .footer-mark {
+  position: absolute;
+  top: 25px;
+  right: 0;
+}
+
+#footer .wrap .footer-b .footer-mark .callcenter {
+  float: left;
+  width: 140px;
+  height: 20px;
+  margin: 15px 20px 0 0;
+  background: url("../img/img_120.png") no-repeat 0 0;
+  color: transparent;
+}

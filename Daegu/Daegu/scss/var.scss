@@ -1,0 +1,27 @@
+@mixin fTitle {
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+@mixin gridItem {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2.14%;
+}
+
+@mixin lineClamp {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  word-break: keep-all;
+  word-wrap: break-word;
+  // -webkit-line-clamp: 4;
+}
+
+$borderPrimaryColor: #d5d6dd;
+$aHoverColor: #E0F0FF;
+$searchBarColor: #09A958;
+$fontColor: #444444;
+$fontSizesm: 13px;

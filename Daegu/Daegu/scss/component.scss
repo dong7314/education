@@ -1,0 +1,132 @@
+.btn-group {
+  position: absolute;
+  width: 187px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.btn-prev {
+  position: relative;
+  width: 52px;
+  height: 50px;
+  background: url('../img/sp_main.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  float: left;
+  cursor: pointer;
+}
+
+.btn-count {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 42.47px;
+  height: 50px;
+  padding: 0 10px;
+  float: left;
+  box-sizing: border-box;
+  span {
+    font-size: 15px;
+    &:nth-child(1) {
+      color: red;
+    }
+  }
+}
+
+.btn-next {
+  position: relative;
+  width: 52px;
+  height: 50px;
+  background: url('../img/sp_main.png');
+  background-position: -56px 0;
+  background-repeat: no-repeat;
+  float: left;
+  cursor: pointer;
+}
+
+.btn-stop {
+  position: relative;
+  width: 40px;
+  height: 50px;
+  float: right;
+  cursor: pointer;
+  span {
+    display: block;
+    width: 8px;
+    height: 14px;
+    margin: 18px 16px;
+    background: url('../img/sp_main.png');
+    background-position: -124px -35px;
+    background-repeat: no-repeat;
+  }
+  &.active {
+    span {
+      background-position: -112px -35px;
+    }
+  }
+}
+
+.lst {
+  position: absolute;
+  top: 30px;
+  right: -10px;
+  z-index: 10;
+  ul {
+    padding: 6px 0;
+    border: 1px solid $borderPrimaryColor;
+    border-radius: 3px;
+    background-color: white;
+    li {
+      padding: 4px 15px;
+      background-color: white;
+      &:hover {
+        background-color: $aHoverColor;
+      }
+      a {
+        display: block;
+        width: 100%;
+        color: #444;
+      }
+    }
+  }
+  &:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: -11px;
+    right: 16px;
+    height: 0;
+    border: 11px solid transparent;
+    border-top: 0;
+    border-bottom-color: #b6babe;
+  }
+  &:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    right: 16px;
+    height: 0;
+    border: 11px solid transparent;
+    border-top: 0;
+    border-bottom-color: #fff;
+  }
+}
+
+h2 {
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 20px;
+  letter-spacing: -2px;
+}
+
+a.href-icon:after {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: -4px 4px 0;
+  vertical-align: middle;
+  background: url('../img/sp_main.png');
+  background-position: -209px -35px;
+}

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>Line Design System for Messenger</title>
+    <link rel="stylesheet" href="./css/initial.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src=./js/common.js></script>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <header id="header">
+      <h1><a href="../../index.html"><svg height="17" width="17"><path d="M7.522.124L.224 5.822c-.141.111-.224.28-.224.46v9.634c0 .323.261.584.584.584h6.57v-4.742h1.469V16.5h6.556c.322 0 .584-.261.584-.584V6.282c0-.18-.083-.349-.225-.46L8.241.124c-.212-.165-.508-.165-.72 0z"></path></svg></a><span>Messenger<div class="cbox"></div></span></h1>
+      <ul class="gnb">
+        <li><a href="../Foundation/index.html">Foundation</a></li>
+        <li><a href="#">Components</a></li>
+        <li><a href="../Guidelines/index.html">Guidelines</a></li>
+        <li><a href="../CaseStudies/index.html">Case studies</a></li>
+      </ul>
+      <div class="right-area">
+        <span class="version">v 2.1.0</span>
+        <div class="language">
+          <div class="globe"></div>
+        </div>
+        <div class="lang-box1">
+          <a href="../Messenger/index.html">Messenger</a>
+          <a href="../Messenger/index.html">Global Family Service</a>
+        </div>
+        <div class="lang-box">
+          <a href="#">En</a>
+          <a href="#">Kr</a>
+          <a href="#">Jp</a>
+        </div>
+        <div class="glass">
+          <div class="magnifying"></div>
+        </div>
+      </div>
+      <div class="input-area">
+        <div class="glass">
+          <div class="magnifying"></div>
+        </div>
+        <input type="search" placeholder="Search LDSM">
+        <div class="xbutton">
+          <div class="xbtn"></div>
+        </div>
+      </div>
+    </header>
+    <div class="scroll-area">
+      <ul>
+        <li><h2>Common Component</h2></li>
+        <li><a href="#">Badge</a></li>
+        <li><a href="#">Banner</a></li>
+        <li><a href="#">Bottom Navigation</a></li>
+        <li><a href="#">Bottom Sheet</a></li>
+        <li><a href="#">Buttons</a></li>
+        <li><a href="#">Chips</a></li>
+        <li><a href="#">Controls</a></li>
+        <li><a href="#">Dialog</a></li>
+        <li><a href="#">Empty</a></li>
+        <li><a href="#">Inputs</a></li>
+        <li><a href="#">List Header</a></li>
+        <li><a href="#">Search Bar</a></li>
+        <li><a href="#">Pagination</a></li>
+        <li><a href="#">Popup</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Progress Indicator</a></li>
+        <li><a href="#">Spinner</a></li>
+        <li><a href="#">Tabs</a></li>
+        <li><a href="#">Top Navigation</a></li>
+        <li><a href="#">Video Player</a></li>
+      </ul>
+      <ul>
+        <li><h2>Contents Component</h2></li>
+        <li><a href="#">Card</a></li>
+        <li><a href="#">Image Grid</a></li>
+        <li><a href="#">List</a></li>
+      </ul>
+      <ul>
+        <li><h2>Chatroom Component</h2></li>
+        <li><a href="#">Flex Message</a></li>
+      </ul>
+    </div>
+    <div class="wrap">
+      <div class="content">
+        <div class="page-header">
+          <h2>COMPONENTS</h2>
+          <p>Component는 각자의 기능을 가진 Element의 조합을 의미합니다. LINE의 Component Guidelines은 유관부서 간의 원할한 의사소통을 위해 명칭을 통일시키고 structure, usage, type, pattern에 대해 정의한 가이드라인입니다.</p>
+        </div>
+        <div class="container">
+          <div class="first-line">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Banner</h5>
+                    <p class="desc">Banner는 특정 이벤트나 프로모션 등을 강조하기 위해 사용하는 이미지 컴포넌트입니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Bottom navigation</h5>
+                    <p class="desc">하단 내비게이션은 앱 내 주요 피쳐들로 구성되어 사용자가 쉽고 빠르게 접근할 수 있도록 합니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Bottom sheet</h5>
+                    <p class="desc">Bottom sheet는 화면 하단에 고정되어 기존 화면과 관련있는 내용이 포함된 표면입니다.</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="line-fix">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Box button</h5>
+                    <p class="desc">전체 화면을 대상으로 하는 과업이 있고 이를 버튼으로 제공해야 할 때 Box button을 사용합니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Capsule button</h5>
+                    <p class="desc">Capsule button은 새로운 콘텐츠가 있을 때 해당 스크롤 위치로 이동시켜주는 버튼입니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Floating action button</h5>
+                    <p class="desc">Floating Action Button(FAB)은 화면에서 가장 기본적이고 공통적인 작업을 수행합니다.</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="line-fix">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Icon Button</h5>
+                    <p class="desc">Icon button은 아이콘을 버튼의 기능으로 사용합니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Text button</h5>
+                    <p class="desc">버튼의 과업이 화면의 전체적인 내용과 크게 관련이 없는 경우 혹은 주목도가 높지 않은 경우 Text button을 사용합니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Chips</h5>
+                    <p class="desc">Chips는 입력, 속성 또는 동작을 나타내는 작은 컴포넌트입니다.</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="line-fix">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Checkbox</h5>
+                    <p class="desc">Checkbox는 요소를 선택하기 위해 사용하는 선택 컨트롤입니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Radio button</h5>
+                    <p class="desc">Radio button은 단일선택을 해야하는 곳에 사용합니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Switch</h5>
+                    <p class="desc">Switch는 특정 옵션을 켜고 끌 수 있는 컨트롤입니다.</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="line-fix">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Snackbar</h5>
+                    <p class="desc">Snackbar는 사용자가 수행한 액션에 대한 피드백으로서 상단/하단에서 제공되며, 보조 액션을 포함할 수 있습니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Toast overlay</h5>
+                    <p class="desc">Toast overlay는 일반적으로 시스템 상태를 바꾸는 액션에 대한 피드백을 제공하기 위해 사용됩니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Tooltip</h5>
+                    <p class="desc">Tooltip은 특정 기능이 포함된 영역에 대한 부가 설명을 위해 사용합니다.</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="line-fix">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Empty</h5>
+                    <p class="desc">화면 전체 혹은 화면 내 부분적으로 Empty 내용을 표시해야 하는 경우 사용합니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Input</h5>
+                    <p class="desc">Input은 가입이나 로그인처럼 서비스 이용에 중요한 정보를 입력할 때 쓰는 컴포넌트 입니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">List header</h5>
+                    <p class="desc">List Header는 List의 섹션을 대표해서 나타내는 부분입니다.</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="line-fix">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Search bar</h5>
+                    <p class="desc">Search Bar는 앱에서 제공하는 정보를 빠르게 찾기 위해 사용합니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Pagination</h5>
+                    <p class="desc">Pagination은 페이지를 이동하거나 현재 어느 페이지에 있는지 보여주고자 할 때 사용하는 컨트롤입니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Popup</h5>
+                    <p class="desc">Popup은 중요한 정보를 제공하거나 결정을 요청하기 위해 앱 콘텐츠 앞에 나타나는 일종의 모달 창입니다.</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="line-fix">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Profile</h5>
+                    <p class="desc">Profile은 화면상에서 사용자를 의미하는 원형의 컴포넌트를 의미합니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Progress indicator</h5>
+                    <p class="desc">Progress Indicator는 로딩이나 입력폼 전송, 업데이트 저장 등 실행중인 프로세스의 상태에 대해 사용자에게 알려줍니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Spinner</h5>
+                    <p class="desc">Spinner는 실행중인 프로세스의 상태를 알 수 없을 때 일반적인 Loading으로서 사용합니다.</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="line-fix">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Tabs</h5>
+                    <p class="desc">탭은 페이지 내 유사한 정보를 그룹핑하여 콘텐츠를 정리할 때 사용합니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Top navigation</h5>
+                    <p class="desc">상단 내비게이션은 사용자가 머무르고 있는 스크린의 타이틀과 주요 액션 버튼을 상단에서 보여 줍니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Video player</h5>
+                    <p class="desc">Video Player는 비디오를 재생하는 등 컨트롤할 때 사용합니다.</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="line-fix">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Card</h5>
+                    <p class="desc">콘텐츠를 카드 형태의 컨테이너에 담아 보여줄 때 사용합니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">Image grid</h5>
+                    <p class="desc">이미지를 리스트 형식으로 나열할 때 사용합니다.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="" alt="">
+                  <div class="title-wrapper">
+                    <h5 class="title">List</h5>
+                    <p class="desc">리스트는 수직 방향으로 배열되는 연속되는 텍스트 혹은 이미지입니다.</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-wrap">
+      <footer>
+        <div id="footer">
+          &copy; LINE Corporation
+          <ul>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

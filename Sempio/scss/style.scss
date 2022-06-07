@@ -1,0 +1,17 @@
+  @charset "UTF-8";
+
+@import "var.scss"; // 변수
+@import "initial.scss"; // 초기화
+@import "common.scss"; // 공통 부분
+
+@import "layout.scss"; // 레이아웃 영역
+@import "header.scss"; // 헤더 영역
+@import "footer.scss"; // 푸터 영역
+@import "mediaquery.scss"; // 미디어 쿼리
+
+// 서브 페이지
+@import "our_range.scss";
+@import "recipes.scss";
+@import "who_are_sempio.scss";
+@import "global_network.scss";
+@import "shop_our_range.scss";

@@ -1,0 +1,220 @@
+#footer {
+  position: relative;
+  background: black;
+  color: white;
+  padding: 8rem 0;
+  height: 335px;
+  .footer-bg {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    left: 4%;
+    bottom: 0;
+  }
+  .wrapping {
+    justify-content: space-between;
+    align-items: stretch;
+    .footer-logo {
+      flex: 30%;
+      img {
+        width: 174px;
+        height: auto;
+      }
+    }
+    .footer-main {
+      flex: 60%;
+      #footer-nav {
+        ul {
+          overflow: hidden;
+          li {
+            float: left;
+            margin-right: 1.5rem;
+            height: 31px;
+            a {
+              display: block;
+              color: white;
+              transition-property: color;
+              box-sizing: border-box;
+              height: 31px;
+              &:hover {
+                color: $fontColorHover;
+              }
+              &.on {
+                border-bottom: 2px solid #E51C24;
+                &:hover {
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+      }
+      .information {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5rem;
+        .footer-main-left {
+          flex: 55%;
+          p {
+            margin: 0;
+            font-size: 18.7px;
+            height: 35px;
+            span {
+              color: red;
+            }
+            a {
+              color: white;
+              &:hover {
+                color: $fontColorHover;
+              }
+            }
+          }
+        }
+        .footer-main-right {
+          flex: 45%;
+          a {
+            display: block;
+            width: 100%;
+            height: 35px;
+            font-size: 18.7px;
+            color: white;
+            &:hover {
+              color: $fontColorHover;
+            }
+          }
+        }
+      }
+      .copyright {
+        margin-top: 5rem;
+        font-size: 16.5px;
+      }
+    }
+  }
+}
+
+@media screen and ( max-width: 1200px ) {
+  #footer {
+    .wrapping {
+      .footer-logo {
+        flex-basis: 25%;
+      }
+      .footer-main {
+        flex-basis: 75%;
+        #footer-nav {
+          ul {
+            li {
+              a {
+                font-size: 19px;
+              }
+            }
+          }
+        }
+        .information {
+          .footer-main-left {
+            p {
+              font-size: 16.15px;
+            }
+          }
+          .footer-main-right {
+            a {
+              font-size: 16.15px;
+            }
+          }
+        }
+        .copyright {
+          font-size: 14.25px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and ( max-width : 990px ) {
+  #footer {
+    padding: 64px 0;
+    height: 390px;
+    .footer-bg {
+      display: none;
+    }
+    .wrapping {
+      .footer-logo.inner {
+        flex-basis: 100%;
+        padding-bottom: 20px;
+      }
+      .footer-main.inner {
+        flex-basis: 100%;
+      }
+    }
+  }
+}
+
+@media screen and ( max-width : 767px ) {
+  #footer {
+    height: 350px;
+    padding-bottom: 32px;
+    .wrapping {
+      .footer-main {
+        #footer-nav {
+          ul {
+            li {
+              width: 49%;
+              margin-right: 0;
+              a {
+                font-size: 16px;
+                &.on {
+                  border-bottom: 0;
+                  color: #E51C24;
+                  &:hover {
+                    color: #E51C24;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .information {
+          margin-top: 1.5rem;
+          .footer-main-left {
+            p {
+              font-size: 13.6px;
+            }
+          }
+          .footer-main-right {
+            a {
+              font-size: 13.6px;
+            }
+          }
+        }
+        .copyright {
+          margin-top: 1.5rem;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and ( max-width : 575px ) {
+  #footer {
+    height: 400px;
+  }
+
+  #footer .wrapping .footer-main .information {
+    display: block;
+  }
+  #footer .wrapping .footer-main.inner .information .footer-main-left {
+    flex-basis: 100%;
+    p {
+      width: 100%;
+      height: 25px;
+    }
+  }
+  #footer .wrapping .footer-main.inner .information .footer-main-right {
+    flex-basis: 100%;
+    padding-top: 20px;
+    a {
+      width: 100%;
+      height: 25px;
+    }
+  }
+}

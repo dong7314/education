@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="312px" height="205px" viewBox="0 0 312 205" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>img_guideline_confirmation</title>
+    <defs>
+        <polygon id="path-1" points="0 205 312 205 312 0 0 0"></polygon>
+    </defs>
+    <g id="LDSM_PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5_LDSM_overview_uxguideline_pc" transform="translate(-543.000000, -604.000000)">
+            <g id="img_guideline_confirmation" transform="translate(543.000000, 604.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g></g>
+                <polygon id="Fill-1" fill="#000000" mask="url(#mask-2)" points="187.054 73 154.019 106.035 125.535 77.551 113 90.087 154.019 131.105 199.589 85.535"></polygon>
+                <polygon id="Fill-2" fill="#1DCC64" mask="url(#mask-2)" points="187.054 73 141.484 118.57 154.019 131.105 199.589 85.535"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

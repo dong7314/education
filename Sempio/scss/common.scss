@@ -1,0 +1,33 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+  padding: 12px 25px 12px;
+  background: $btnBgColor;
+  color: $btnFontColor;
+  box-sizing: border-box;
+  font-size: $btnFontSize;
+  line-height: 1;
+  border-radius: 0 26px 0 26px;
+  vertical-align: middle;
+  transition: .4s ease-in-out;
+  &:hover {
+    background: $btnHoverBgColor;
+    color: $btnFontColor;
+  }
+}
+
+.slide-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $layoutBg;
+  background-image: url('../img/section2/arrow_right.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 180px;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
